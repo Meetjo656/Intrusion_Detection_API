@@ -1,0 +1,36 @@
+# Core data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Model saving/loading
+joblib>=1.3.0
+
+# API Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Alternative API (if using Flask instead)
+# flask>=3.0.0
+# flask-cors>=4.0.0
+
+# Feature extraction from URLs
+tldextract>=5.0.0
+python-whois>=0.8.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data visualization (optional for EDA)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Additional utilities
+python-multipart>=0.0.6
